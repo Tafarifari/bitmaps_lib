@@ -1,0 +1,21 @@
+#ifndef BITMAPS_LIB_HPP
+	#define BITMAPS_LIB_HPP
+
+	#include <cstdio>
+	#include <cstdint>
+	#include <cstdlib>
+	#include <cstring>
+	#include <math.h>
+	//#include <vector>
+
+	struct RGB;
+	struct RGBA;
+
+	class RGB_bitmap;
+	class RGBA_bitmap;
+	class RGBA_sprite;
+
+	struct Point2D;
+	struct Line2D;
+
+	
